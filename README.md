@@ -4,10 +4,7 @@
 
 This repository contains the Open Web App developed for Metadata Management modules [MetaData Management in Admin UI Project](https://wiki.openmrs.org/display/projects/More+Metadata+Management+in+AdminUI).
 
-> System Administration modules functionality implemented as an OWA for OpenMRS
-
 For further documentation about OpenMRS Open Web Apps see [the wiki page](https://wiki.openmrs.org/display/docs/Open+Web+Apps+Module).
-
 
 ### Production Build
 

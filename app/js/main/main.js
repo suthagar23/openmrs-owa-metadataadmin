@@ -21,7 +21,7 @@ mainModule.service('mainService',['$http', 'OWARoutesUtil','$q', function ($http
 // mainController Controller used for home.html 
 mainModule.controller('mainHomeCtrl', ['$scope','$http','OWARoutesUtil','$rootScope','mainService', function($scope,$http,OWARoutesUtil,$rootScope,mainService){
     
-    $rootScope.$emit("updateBreadCrumb", {breadcrumbs : [["SysAdmin",""],]});
+    $rootScope.$emit("updateBreadCrumb", {breadcrumbs : [["Metadata Admin",""],]});
     
     console.log("HomeCtrl");
     var a1 =["HomeA","HomeB","HomeC"];

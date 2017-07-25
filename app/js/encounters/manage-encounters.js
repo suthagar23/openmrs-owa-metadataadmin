@@ -66,7 +66,7 @@ mainModule.service('encountersService',['$http', 'OWARoutesUtil','$q', function 
 encounters.controller('searchEncounterCtrl', ['$scope','$http','OWARoutesUtil','$rootScope', function($scope,$http,OWARoutesUtil,$rootScope){
     
       // *** /OpenMRS breadcrumbs ***  
-      $rootScope.$emit("updateBreadCrumb", {breadcrumbs : [["SysAdmin","#"],["Encounters",""]]});
+      $rootScope.$emit("updateBreadCrumb", {breadcrumbs : [["Metadata Admin","#"],["Encounters",""]]});
       // *** /OpenMRS breadcrumbs ***    
     
     $scope.searchText = null;

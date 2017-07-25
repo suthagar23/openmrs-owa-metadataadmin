@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Metadata Admin",
+  "name": "Metadata Management",
   "description": "OWA Contains modules related to Metadata Management ",
   "launch_path": "index.html",
   "icons": {
